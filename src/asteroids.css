@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2 {
+	font-family: 'Audiowide', cursive;
+	position: absolute;
+	left: 10px;
+	color: #83f52c;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	-webkit-animation: fadein 4s;
+	font-size: 180%;
+}
+#score {
+	left: auto;
+	right: 10px;
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
